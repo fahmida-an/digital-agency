@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gray;
+    padding: 20px;
+}
+
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 17px;
+    
+}
+
+.banner-container{
+    height: 100vh;
+    background-image: url('');
+}
