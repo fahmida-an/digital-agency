@@ -57,3 +57,77 @@
     background-color: red;
     color: white;
 }
+
+.service-container{
+    height: 100vh;
+    background-image: url('..//asset/image/footer-bg.png'),linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.title-2{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    padding-top: 15px;
+    padding-bottom:15px ;
+}
+.service-description{
+    font-size: 17px;
+    padding-bottom:15px ;
+}
+.list{
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+.icon{
+    width: 70px;
+    margin-bottom: 20px;
+}
+
+.box{
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px gray;
+    width: 150px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    
+}
+.service-description{
+    width: 50%;
+}
+
+.first-two-box{
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+}
+.author-img{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.author-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.profile-container{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-right: 2px solid red;
+    padding-right: 30px;
+   
+}
